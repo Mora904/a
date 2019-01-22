@@ -1,0 +1,12 @@
+{
+  "name": "icr",
+  "description": "icr-mora",
+  "version": "0.1.0",
+  "main": "irc.js",
+  "scripts": {
+    "start": "discord-irc -c config.json"
+  },
+  "dependencies": {
+    "discord-irc": "^2.6.2"
+  }
+}

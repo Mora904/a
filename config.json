@@ -1,0 +1,25 @@
+{
+  "nickname": "Captain",
+  "server": "irc.cit2.net",
+  "discordToken": "NTEyOTcwMTg5OTQwMzI2NDMw.DyXfuw.ECPmCOjKU0xhkmyRn6qC4m3huLo",
+  
+"channelMapping": {
+      "536493005759184899": "#civilian"
+    },
+  "format": {
+    "commandPrelude": "Command sent by {$nickname}",
+    "ircText":"{$text}",
+      "urlAttachment": "**{$displayUsername}** {$attachmentURL}",
+      "discord": "`-`*{$withMentions}*"
+ },
+"ircNickColor": true,
+    "commandCharacters": ["!", "."],
+    "ircStatusNotices": false,
+    "ignoreUsers": {
+      "irc": ["irc_nick1", "irc_nick2"],
+      "discord": ["discord_nick1", "discord_nick2"]
+    },
+"webhooks": {
+    "#civilian": "https://discordapp.com/api/webhooks/518483491869032459/oras9JdWW3czffpDb-fgl-ZPBh1_ItVl_vyT9zC7jgBGEKjwpd5EhxR1TbGYQSmwxDLk"
+  }
+}
